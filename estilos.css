@@ -1,0 +1,331 @@
+html{
+	background-color: #112330;
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat",sans-serif;
+}
+.header{
+  height: 100px;
+  background: #002d72;
+  padding: 0 20px;
+  color: #fff;
+}
+.logou{
+  line-height: 100px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  float: left;
+  text-transform: uppercase;
+}
+.logo{
+  line-height: 100px;
+  margin-left: 80px;
+  float: left;
+  text-transform: uppercase;
+}
+
+.menu{
+  float: right;
+  margin-right: 15px;
+  line-height: 100px;
+  font-size: 15px;
+}
+.menu a{
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 10px;
+  transition: 0.4s;
+}
+.show-menu-btn,.hide-menu-btn{
+  transition: 0.4s;
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+}
+.show-menu-btn{
+  float: right;
+}
+.show-menu-btn i{
+  line-height: 100px;
+}
+.menu a:hover,
+.show-menu-btn:hover,
+.hide-menu-btn:hover{
+  color: #3498db;
+}
+
+
+.footer-basic-centered{
+	background-color: #002d72;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	font: normal 18px sans-serif;
+
+	padding: 4px;
+	margin-top: 10px;
+}
+
+.footer-basic-centered .footer-company-motto{
+	color:  #8d9093;
+	font-size: 24px;
+	margin: 20px;
+}
+
+.footer-basic-centered .footer-company-name{
+	color:  #FFFFFF;
+	font-size: 14px;
+	margin: 1px;
+}
+
+.footer-basic-centered .footer-links{
+	list-style: none;
+	font-weight: bold;
+	color:  #ffffff;
+	padding: 35px 0 23px;
+	margin: 0;
+}
+
+.footer-basic-centered .footer-links a{
+	display:inline-block;
+	text-decoration: none;
+	color: inherit;
+}
+
+/** Formulario **/
+
+.footer .footer-content{
+	margin-top: 10px;
+  width: 90%;
+  padding-top: 100px;
+  margin: auto;
+  padding-bottom: 100px;
+}
+.footer-title{
+  width: 100%;
+  margin: auto;
+  /** border: 2px solid #004197; **/
+  padding: 15px;
+}
+.footer-title h2{
+  text-align: center;
+  color: #060606;
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.footer-content .footer-title hr{
+  background: #004197;
+  height: 0px;
+  width: 80%;
+  margin: auto;
+}
+
+.footer-content .formulario-content{
+  width: 80%;
+  background: #fff;
+  /** border-radius: 24px; **/
+  /** border: 1px solid #004197; **/
+  margin: 0px auto;
+  padding:20px;
+  margin-bottom: 50px;
+}
+
+.footer-content .formulario-content #formulario{
+  display: block;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer-content .formulario-content #formulario label{
+  text-align: center;
+  color: #060606;
+  font-size: 20px;
+  margin: 30px 0px 10px 0px;
+}
+
+.footer-content .formulario-content #formulario input{
+  width: 90%;
+  height: 45px;
+  margin: auto;
+  border: 2px solid #004197;
+  border-radius: 15px;
+  outline: none;
+  text-align: left;
+  font-size: 15px;
+  color: var(--black);
+}
+
+.footer-content .formulario-content #formulario textarea{
+  width: 90%;
+  height: 200px;
+  margin: auto;
+  border: 2px solid #004197;
+  border-radius: 20px;
+  outline: none;
+  font-size: 15px;
+  color: var(--black);
+  padding: 20px;
+}
+
+.footer-content .formulario-content #formulario .send{
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  margin: 40px 0px;
+}
+
+.footer-content .formulario-content #formulario .send button{
+  width: 120px;
+  height: 40px;
+  background: #004197;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-size: 22px;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.footer-content .formulario-content #formulario .send button:hover{
+  background: var(--blue);
+}
+
+.footer-content .footer-text{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background: rgba(0,0,0,0.8);
+  border-top: 3px solid #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content .footer-text p{
+  color: #fff;
+  font-size: 20px;
+}
+
+/** Formulario **/
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+
+
+
+.button1 {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 6px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  border-radius: 5px;
+  margin : 4px 2px;
+  cursor: pointer;
+}
+.button2 {
+  background-color: #FF3535;
+  border: none;
+  color: white;
+  padding: 6px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  border-radius: 5px;
+  margin : 4px 2px;
+  cursor: pointer;
+}
+
+.button3 {
+  background-color: #CC00CC;
+  border: none;
+  color: white;
+  padding: 0px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  border-radius: 60px;
+  margin : 1px 1px;
+  cursor: pointer;
+}
+.result {
+padding-left: 120px;
+border-right-width: 200px;
+padding-right: 0px;
+padding-bottom: 20px;
+font-size: 18px;
+}
+
+.info {
+background-color: lightgrey;
+width: 350px;
+border: 15px solid lightgrey;
+padding: 0px;
+margin: 0px;
+padding-bottom: 0px;
+font-size: 14px;
+border-radius: 5px;
+}
+.content{
+margin-bottom: 0px;
+}
+.cards{
+-webkit-tap-highlight-color: transparent;
+--blue: #007bff;
+--indigo: #6610f2;
+--purple: #6f42c1;
+--pink: #e83e8c;
+--red: #dc3545;
+--orange: #fd7e14;
+--yellow: #ffc107;
+--green: #28a745;
+--teal: #20c997;
+--cyan: #17a2b8;
+--white: #fff;
+--gray: #6c757d;
+--gray-dark: #343a40;
+--primary: #007bff;
+--secondary: #6c757d;
+--success: #28a745;
+--info: #17a2b8;
+--warning: #ffc107;
+--danger: #dc3545;
+--light: #f8f9fa;
+--dark: #343a40;
+--breakpoint-xs: 0;
+--breakpoint-sm: 576px;
+--breakpoint-md: 768px;
+--breakpoint-lg: 992px;
+--breakpoint-xl: 1200px;
+--font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+--font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+color: #212529;
+text-align: left;
+box-sizing: border-box;
+flex: 1 1 auto;
+padding: 1.25rem;
+padding-bottom: 0px;
+padding-top: 0px
+}

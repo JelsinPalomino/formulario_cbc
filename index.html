@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="Book_Search" href="img/cbc.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="controllers/ts.entertaiment.js"></script>
+
+    <title>Ejes_Estratégicos</title>
+</head>
+
+<body ng-app="tsEntertainmentApp" ng-controller="VenuesListCtrl">
+  <div class="header">
+    <h2 class="logou"><img src="img/prueba2.png" alt="90" width="200" height="60"></h2>
+    <h2 class="logo"></h2>
+    <!-- <input type="checkbox" id="chk"> -->
+    <!-- <span class="btn-menu"> <i class="fas fa-bars"></i></span> -->
+    <label for="chk" class="show-menu-btn">
+      <i class="fas fa-ellipsis-h"></i>
+    </label>
+
+    <ul class="menu">
+      <a href="#">Home</a>
+      <a href="https://www.who.int/health-topics/coronavirus">Info</a>
+      <a href="https://www.gob.pe/coronavirus">Advice for public</a>
+      <a href="https://www.bsg.ox.ac.uk/research/research-projects/coronavirus-government-response-tracker">Data</a>
+      <a href="https://www.cbc.org.pe">Contact</a>
+      <label for="chk" class="hide-menu-btn">
+        <i class="fas fa-times"></i>
+      </label>
+    </ul>
+  </div>
+
+<div class="footer-content">
+  <br><br>
+    <div class="footer-title">
+        <h2>Ingreso de Documentos sobre los Ejes Estratégicos del CBC</h2>
+        <hr>
+        </div>
+
+        <div class="formulario-content">
+            <form id="formulario">
+
+            <label for="autor">Nombre del Autor</label>
+            <input type="text" id="user" name="user" placeholder="Ingresa el nombre del autor">
+
+            <label for="titulo">Título del documento</label>
+            <input type="text" id="titulo" name="titulo" placeholder="Ingresa el título">
+
+            <label for="referencia">Referencia</label>
+            <input type="text" id="referencia" name="referencia" placeholder="Ingresa la referencia del documento">
+
+            <label for="link">Disponible en:</label>
+            <input type="text" id="link" name="link" placeholder="Ingresa el link del documento">
+
+            <label for="comentario">Observación</label>
+            <input type="text" id="comentario" name="comentario" placeholder="Ingresa una observación del documento">
+
+            <label for="observacion">Comentario</label>
+            <textarea name="menssage" id="observacion"></textarea>
+
+            <div class="send"><button>Enviar</button></div>
+
+            <div class="mensaje-form">
+              <p>Este formulario contiene la información necesaria para hacer el ingreso de nuevos documentos a la base de datos.</p>
+            </div>
+          </form>
+        </div>
+</div>
+<footer class="footer-basic-centered">
+    <img class="footer-company-motto" src="img/prueba2.png" align="middle" alt="Johns Hopkins University width="50" height="50" &amp; Medicine">
+    <p class="footer-company-name"> <!-- -->2020<!-- --> Centro de Estudios Regionales Andinos "Bartolomé de Las Casas" - Cusco</p>
+</footer>
+
+<!-- Scripts -->
+<script src="https://kit.fontawesome.com/3c24d6443b.js" crossorigin="anonymous"></script>
+<script src="js/app.js"> </script>
+
+</body>
+</html>
+<script>
+    $(document).ready(function() {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>
